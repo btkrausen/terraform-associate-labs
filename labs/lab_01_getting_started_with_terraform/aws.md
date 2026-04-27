@@ -140,7 +140,7 @@ Let's experiment with version constraints:
 1. Modify the `required_version` in your provider configuration:
 
 ```hcl
-required_version = "1.12.2"  # An intentionally high version
+required_version = ">= 99.0.0"  # An intentionally high version
 ```
 
 2. Run the terraform initialization command:
