@@ -30,7 +30,7 @@ resource "aws_subnet" "private" {
   }
 }
 
-resource "aws_route_table" "static" {
+resource "aws_route_table" "private" {
   vpc_id = aws_vpc.production.id
 
   tags = {
